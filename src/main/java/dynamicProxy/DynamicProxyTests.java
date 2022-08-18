@@ -9,7 +9,7 @@ public class DynamicProxyTests {
         // 동적으로 프록시 생성
         // cat
         Animal cat = (Animal) Proxy.newProxyInstance(Animal.class.getClassLoader(), // 클래스 로더
-                new Class[]{Animal.class}, // 타겟 클래스
+                new Class[]{Animal.class}, // 타겟 인터페이스
                 new AnimalProxyHandler(new Cat())); // 타겟의 정보가 포함된 핸들러
         // dog
         Animal dog = (Animal) Proxy.newProxyInstance(Animal.class.getClassLoader(),
