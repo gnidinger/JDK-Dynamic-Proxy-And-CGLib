@@ -3,7 +3,7 @@ package cglib;
 import net.sf.cglib.proxy.InvocationHandler;
 import java.lang.reflect.Method;
 
-//CGLib 에서 Dynamic Proxy 에서 사용했던 핸들러 방식 사용하기
+//CGLib 에서 InvocationHandler 사용하기
 public class AnimalProxyCGLibHandler implements InvocationHandler {
 
     Object target;

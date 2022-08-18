@@ -1,8 +1,7 @@
 package interceptor;
 
 import org.junit.Test;
-import org.springframework.cglib.proxy.Enhancer;
-
+import net.sf.cglib.proxy.Enhancer;
 public class byInterceptorTests {
     @Test
     public void byInterceptorExample() {

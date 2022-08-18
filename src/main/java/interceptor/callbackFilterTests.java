@@ -4,7 +4,6 @@ import org.junit.Test;
 import net.sf.cglib.proxy.Callback;
 import net.sf.cglib.proxy.Enhancer;
 
-
 public class callbackFilterTests {
     @Test
     public void callbackFilterExample() { // 콜백 필터를 이용해 필터 조건(메서드)에 따라 다른 인터셉터 적용
